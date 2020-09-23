@@ -1,0 +1,74 @@
+.menu-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.menu-section-title{
+    font-family: $secondary-font;
+    font-size: 36px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    color: $title-color;
+}
+.menu-section-text {
+    width: 570px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.56;
+    color: $title-color;
+    
+}
+.menu-section-categories-list {
+    margin-top: 40px;
+    padding-right: 320px;
+    padding-left: 320px;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.menu-section-categories-list-item {
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: $secondary-color;
+}
+
+.menu-section-categories-list-item:not(:last-child)::after {
+    margin-left: 40px;
+    content: '';
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    transform: rotate(90deg);
+    width: 50px;
+
+}
+
+.menu-section-lists-wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    padding-top: 50px;
+    text-align: start;
+   
+}
+.menu-section-dish-list:not(:last-child){
+    margin-right: 80px;
+    }
+.menu-section-dish-list-item {
+    font-weight: 700;
+    font-family: $secondary-font;
+    font-size: 18px;
+    line-height: 1.71;
+    color: $secondary-color;
+    letter-spacing: 0.06em;
+}
+.menu-section-dish-list-text-wrapper{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    font-family: $main-font;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.01em;
+}

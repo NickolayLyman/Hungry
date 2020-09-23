@@ -1,0 +1,32 @@
+.events-section-wrapper {
+    background-image: url(../images/specialty-bg.jpg);
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-size: contain;
+}
+.events-section-img-wrapper{
+    display: flex;
+}
+.events-section-title {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+.events-section-img {
+   width: calc((100%)/2);  
+}
+.event-section-halls-img {
+    width: 100%;
+}
+.event-section-text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.5);
+}
+.event-section-text-wrapper {
+    font-weight: 700;
+}

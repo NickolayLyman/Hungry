@@ -19,10 +19,10 @@
 .form-feedback {
     padding-top: 50px;
     padding-left: 22px;
-    padding-right: 98px;
 }
 .form-feedback-list {
     display: flex;
+   
 }
 .form-feedback-list-item:not(:last-child) {
         margin-right: 10px;
@@ -72,6 +72,9 @@
     font-size: 12px;
     line-height: 1;
     color: rgba(51, 51, 51, 0.5);
+    &:hover {
+      color: $accent-color;
+    }
 }
 .icon-contacts {
     display: inline-block;

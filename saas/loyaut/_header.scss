@@ -13,5 +13,8 @@
     margin-right: 85px;
 }
 .navigation-link {
-   color: $main-color
+   color: $main-color;
+   &:hover {
+    color: $accent-color;
+}
 }

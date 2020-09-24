@@ -268,10 +268,12 @@
            Duis </br> at velit maximus, molestie est a, tempor magna.</p>
            <form action="#" class="form-feedback">
             <div class="form-feedback-wrapper">
-                <input type="text" name="user-name" class="feedback-form-input"  placeholder="Name" required>
-                <input type="email" name="user-email" class="feedback-form-input"  placeholder="Email" required>
-                <input type="tel" name="user-phone" class="feedback-form-input"  placeholder="Phone" required>
-            <textarea name="usesr-comment" placeholder="Message" class="feedback-form-comment"></textarea>
+                <ul class="form-feedback-list">
+                    <li class="form-feedback-list-item"><input type="text" name="user-name" class="feedback-form-input"  placeholder="Name" required></li>
+                    <li class="form-feedback-list-item"><input type="email" name="user-email" class="feedback-form-input"  placeholder="Email" required></li>
+                    <li class="form-feedback-list-item"><input type="tel" name="user-phone" class="feedback-form-input"  placeholder="Phone" required></li>
+                </ul>
+                <textarea name="usesr-comment" placeholder="Message" class="feedback-form-comment"></textarea>
             <div class="feedback-contact-list-wrapper">
             </form>
             <ul class="feedback-contacts-list">
@@ -297,7 +299,6 @@
             <button type="submit" class="feedback-form-btn" >SEND MESSAGE</button>
             </div>
             </div>
-   
    </section>
     <footer>
         <img class="footer-img" src="./images/map-img.jpg" alt="map">
